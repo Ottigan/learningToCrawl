@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-image {
+    background-image: url(https://picsum.photos/id/1016/2000/1100);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.bg-font-black {
+    color: black;
+}
+
+#ABOUT p {
+    color: grey;
+    text-align: center;
+}
+
+#aboutP {
+    width: 80%;
+}
+
+#porfolio {
+    margin: 30px 0;
+}
+
+#porfolio img {
+    margin: 10px;
+}
+
+#inputW {
+    width: 50%;
+}
+
+#disclaimer {
+    width: 40%;
+    height: 50%;
+}
+
+#disclaimer p {
+    font-size: 22px;
+}
+
+.portfolio {
+    margin: 30px 20px;
+    list-style: none;
+}
+
+.bg-color-white {
+    background-color: white;
+}
+
+.vh475 {
+    height: 47.5vh;
+}
+
+.vh95 {
+    height: 95vh;
+}
+
+.vh30 {
+    height: 30vh;
+}
+
+.vh5 {
+    height: 5vh;
+}
+
+.container {
+    width: 1150px;
+}
+
+.nameMailWidth {
+    width: 46%;
+}
+
+.name-mail-box {
+    background-color: rgb(241, 241, 241);
+    height: 80px;
+    border-top: 1px solid black;
+    margin-bottom: 60px;
+}
+
+.message-box {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 160px;
+    border-top: 1px solid black;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+h2 {
+    font-size: 250%;
+}
+
+h3 {
+    font-size: 34px;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 790px) {
+    .container {
+        max-width: 100%;
+    }
+    .vh95 {
+        height: 100vh;
+    }
+    img {
+        max-width: 90%;
+    }
+    .rvert-flex {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .vert-flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .vhauto {
+        height: auto;
+    }
+    section div {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .no-vh {
+        height: auto;
+    }
+    .hide-nav {
+        display: none;
+    }
+    .e-mail {
+        text-align: center;
+    }
+    #inputW {
+        width: 90%;
+    }
+    #disclaimer p {
+        font-size: 22px;
+        width: 90%;
+    }
+    .nameMailWidth {
+        width: 100%;
+    }
+    #betterMail {
+        display: flex;
+        text-align: center;
+    }
+    h1 {
+        font-size: 200%;
+    }
+    h2 {
+        font-size: 150%;
+    }
+    h3 {
+        font-size: 24px;
+        font-weight: 300;
+    }
+    h4 {
+        font-size: 18px;
+        font-weight: 300;
+    }
+}
+
+nav li {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    /* margin: 0 15px; */
+    padding: 1.6vh;
+    transition: all 0.5s;
+}
+
+nav li:hover {
+    background-color: rgb(179, 179, 179);
+}
+
+header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid gray;
+}
+
+footer {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    text-align: center;
+}
+
+footer li {
+    list-style: none;
+    margin: auto 10px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.vd-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexprop {
+    flex: 0 0 0;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.as-center {
+    align-self: center;
+}
+
+.t-align {
+    text-align: center;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-se {
+    justify-content: space-evenly;
+}
+
+.dr-flex {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.dash {
+    height: 2px;
+    width: 100px;
+    margin: 40px 0 0 0;
+}
+
+.dash-black {
+    height: 2px;
+    width: 70px;
+    margin: 30px 0;
+    background-color: black;
+}
+
+.button {
+    background-color: rgb(0, 0, 0, 0);
+    text-align: center;
+    padding: 20px 70px;
+    border: 1px solid white;
+    color: white;
+    transition: all 0.5s;
+}
+
+.button-black {
+    background-color: rgb(0, 0, 0, 0);
+    text-align: center;
+    padding: 20px 70px;
+    border: 1px solid black;
+    color: black;
+    transition: all 0.5s;
+    margin-bottom: 40px;
+}
+
+.button-send {
+    background-color: rgb(0, 0, 0, 0);
+    text-align: center;
+    width: 30%;
+    height: 60px;
+    margin: 60px 0;
+    border: 1px solid black;
+    color: black;
+    transition: all 0.5s;
+}
+
+.button:hover,
+.button-send:hover,
+.button-black:hover {
+    background-color: rgb(179, 179, 179);
+}
+
+.col-3 {
+    width: 25%;
+    height: 150%;
+}

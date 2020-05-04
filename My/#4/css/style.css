@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  block-size: border-box;
+}
+
+header {
+  background-color: rgb(0, 0, 0, 0);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.menu {
+  width: 60px;
+  height: 60px;
+  transition: all 0.5s;
+}
+
+.menuLine {
+  height: 5px;
+  width: 50%;
+  margin-bottom: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+.menu:hover {
+  background-color: rgb(78, 78, 78);
+}
+
+.bg-image {
+  background-image: url(https://picsum.photos/id/1021/2000/900);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.split-2bl {
+  background-color: rgb(235, 235, 235);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.poga {
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-weight: bolder;
+  font-size: 140%;
+  width: 110px;
+  transition: all 0.5s;
+}
+
+.poga:hover {
+  background-color: rgb(78, 78, 78);
+}
+
+.mainbg-color {
+  background-color: rgb(170, 196, 204);
+}
+
+.mainbg-fontAndColor {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.vh100 {
+  height: 100vh;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.vertical-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.alignitems {
+  align-items: center;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.j-space {
+  justify-content: space-between;
+}
+
+.j-around {
+  justify-content: space-evenly;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.sectioninfo {
+  width: 50%;
+  height: 65%;
+}
+
+.vh65 {
+  height: 65vh;
+}
+
+.vh25 {
+  height: 25vh;
+}
+
+.vh10 {
+  height: 10vh;
+}
+
+.footerseperator {
+  border-width: 4px 0 0 0;
+  border-style: ridge;
+  border-color: rgb(0, 0, 0, 0.1);
+}
+
+.col-4 {
+  margin: 0 30px;
+}
+
+h1 {
+  font-size: 100px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+  font-size: 48px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+  font-size: 36px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h6 {
+  margin-bottom: 40px;
+  font-size: 20px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: white;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+}
