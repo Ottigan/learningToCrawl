@@ -29,7 +29,7 @@
                 <form action="" style="width: 45%; margin: 0 3px 0 0;" class="flex">
                     <div class="flex flex-grow vertical">
                         <label for="new-table">Add Table</label>
-                        <input id="new-table" type="text" class="flex-grow" />
+                        <input id="new-table" type="text" name="table" class="flex-grow" />
                     </div>
                     <button style="height: 52%; width: 10%; align-self: flex-end;" type="button" id="add-table">
                         Add
@@ -38,7 +38,7 @@
                 <form action="" style="width: 45%;" class="flex">
                     <div class="flex flex-grow vertical">
                         <label for="new-casino">Add Casino</label>
-                        <input type="text" name="" id="new-casino" class="flex-grow" />
+                        <input id="new-casino" type="text" name="casino" class="flex-grow" />
                     </div>
                     <button style="height: 52%; width: 10%; align-self: flex-end;" type="button" id="add-casino">
                         Add
@@ -58,6 +58,29 @@
     </section>
     <script src="js/new.js"></script>
     <script src="js/main.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDMNuYV5CcD_azJSRBiBxtjRBnlCILwWw4",
+            authDomain: "ottigan-56ba0.firebaseapp.com",
+            databaseURL: "https://ottigan-56ba0.firebaseio.com",
+            projectId: "ottigan-56ba0",
+            storageBucket: "ottigan-56ba0.appspot.com",
+            messagingSenderId: "213916095976",
+            appId: "1:213916095976:web:4be9f423dd4436f369805d",
+            measurementId: "G-KX9XX6V9H2"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
 </body>
 
 </html>
